@@ -1,7 +1,7 @@
 def main():
     # Prompt for a single task
     Task = input("Please enter your task: ")
-    Priority = input("Please enter the priority level (high/medium/low): ").lower()
+    Priority = input("high/medium/low: ").lower()
     Time_bound = input("Is this task time-bound? (yes/no): ").lower()
 
     # Initialize reminder message
