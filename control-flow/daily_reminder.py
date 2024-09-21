@@ -1,6 +1,6 @@
 Task= input("Enter your task: ")
-Priority = input("priority (high\ medium\ low): ").lower()
-Time_Bound = input("Is it task time-bound? (yes \ no): ").lower()
+Priority = input("priority (high/ medium/low): ").lower()
+Time_Bound = input("Is it task time-bound? (yes/no): ").lower()
 
 # Generate reminder based on priority and time sensitivity
 match Priority:
