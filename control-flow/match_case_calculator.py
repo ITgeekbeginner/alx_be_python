@@ -4,7 +4,7 @@ operations = input("Choose the operation (+, -, *, /): ")
 
 match operations:
     case "+":
-        result = num1 + num2
+        result = num1+num2
         print(f"The result is {result}")
     case "-":
         result = num1 - num2
