@@ -1,6 +1,6 @@
-task= input("Enter your task: ")
+Task= input("Enter your task: ")
 Priority = input("priority (high, medium, low): ").lower()
-time_bound = input("Is the task time-bound? (yes or no): ").lower()
+Time_bound = input("Is the task time-bound? (yes or no): ").lower()
 
 # Generate reminder based on priority and time sensitivity
 match Priority:
@@ -14,8 +14,8 @@ match Priority:
         reminder = "priority not recognized."
 
 # Modify reminder if task is time-bound
-if time_bound == "yes":
+if Time_bound == "yes":
     reminder += " It requires immediate attention today!"
 
 # Print the customized reminder
-print(f"Reminder: {reminder} Task: {task}")
+print(f"Reminder: {reminder} Task: {Task}")
