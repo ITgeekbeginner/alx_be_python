@@ -27,4 +27,4 @@ match Priority:
         exit()
 
 # Provide a Customized Reminder
-print(Reminder:)
+print(Reminder)
