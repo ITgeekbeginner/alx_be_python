@@ -12,8 +12,8 @@ def main():
 if __name__ == "__main__":
     main()
 
-from Shopping_list_manager import display_menu
-from Shopping_list_manager import main
+from shopping_list_manager import display_menu
+from shopping_list_manager import main
 
 def display_menu():
     print("Shopping list manager")
