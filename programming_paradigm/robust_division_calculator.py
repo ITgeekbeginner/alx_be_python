@@ -1,15 +1,17 @@
-numerator = int(input(f"Enter the numerator: "))
-denominator = int(input(f"Enter the denominator: "))
-
-class safe_divide(numerator, denominator):
-    #numerator = int(input("Enter the numerator: "))
-    #denominator = int(input("Enter the denominator
-
+class safe_divide():
+    def safe_divide(numerator, denominator):
+        safe_divide.numerator = num
+        safe_divide.den = den
+    
     try:
-        result = numerator / denominator
-        print("The result of the division is {result}")
+
+       num = float(numerator)
+       den = float(denominator)
+
+       result = num / den
+       print( f"The result of the division is {result}" )
     except ZeroDivisionError:
-       print("Error: Cannot divide by zero")
+        print("Error: Cannot divide by zero")
     except ValueError:
         print("Error: Please enter numeric values only")
     
