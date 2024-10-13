@@ -5,6 +5,8 @@ class Book:
 
     def details(self):
         return f"Title: {self.title}, Author: {self.author}"
+    def __str__(self):
+        return f"Title: {self.title}, Author: {self.author}"
 
 class EBook(Book):
     def __init__(self, title, author, file_size):
@@ -14,6 +16,7 @@ class EBook(Book):
 
     def details(self):
         return f"{super().details()}, File Size: {self.file_size} MB"
+    
     
 
 class PrintBook(Book):
@@ -37,6 +40,6 @@ class Library:
             print(book.details(self))
 
 my_library = Library()
-my_library.add_book(Book)
+my_library.add_book()
 my_library.list_books()
 
